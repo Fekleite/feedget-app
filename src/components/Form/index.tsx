@@ -14,9 +14,11 @@ import { SubmitButton } from '../SubmitButton';
 
 interface FormProps {
   feedbackType: FeedbackType;
+  onFeedbackCanceled: () => void;
+  onFeedbackSent: () => void;
 }
 
-export function Form({ feedbackType }: FormProps) {
+export function Form({ feedbackType, onFeedbackCanceled }: FormProps) {
   const [screenshot, setScreenshot] = useState<string | null>(null);
 
   const feedbackTypeInfo = feedbackTypes[feedbackType];
@@ -35,7 +37,7 @@ export function Form({ feedbackType }: FormProps) {
   return (
     <View style={styles.container}>
       <View style={styles.header}>
-        <TouchableOpacity>
+        <TouchableOpacity onPress={onFeedbackCanceled}>
           <ArrowLeft
             size={24}
             weight="bold"
