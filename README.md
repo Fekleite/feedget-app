@@ -62,7 +62,7 @@ $ npm install
 
 Inicie a aplicação
 ```bash
-$ npm run dev
+$ expo start
 ```
 
 **Para o correto funcionamento é necessário ter o servidor da aplicação. Entre o repositório aqui [FeedGet API](https://github.com/Fekleite/feedget-api).**
