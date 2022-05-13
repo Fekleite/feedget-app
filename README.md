@@ -1,25 +1,5 @@
 <h1 align="center">App FeedGet 💬</h1>
 
-<p align="center">
-  <a href="https://opensource.org/licenses/MIT">
-    <img src="https://img.shields.io/badge/License-MIT-7B61FF" alt="License MIT">
-  </a>
-  
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/Fekleite/letmeask?color=7B61FF">
-
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Fekleite/letmeask?color=7B61FF">
-
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/Fekleite/letmeask?color=7B61FF">
-  
-  <a href="https://github.com/Fekleite/letmeask/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Fekleite/letmeask?color=7B61FF">
-  </a>
-
-  <a href="https://github.com/Fekleite/letmeask/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/Fekleite/letmeask?color=7B61FF">
-  </a>
-</p>
-
 <p align="center"  >
   <img src="https://user-images.githubusercontent.com/48728541/167233002-d672be2c-7871-4983-87ec-ef1153853351.png" />
 </p>
